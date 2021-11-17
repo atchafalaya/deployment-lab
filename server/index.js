@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
-    console.log(`My app is JAMMIN on port numbero ${port}`);
+    console.log(`App running PORT ${port}`);
 });
