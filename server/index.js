@@ -21,8 +21,6 @@ app.get('/js', (req, res) => {
 
   app.use('/style.css', express.static(path.join(__dirname, '/public/style.css')));
 
-  //app.use('/server/index.js', express.static(path.join(__dirname, '../server/index.js'))); //already called in package.json
-
   app.use('/images', express.static(path.join(__dirname, '../images')));
 
   app.use(express.static(__dirname +'../public')); //may not need
